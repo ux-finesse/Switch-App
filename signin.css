@@ -26,7 +26,7 @@ main{
     width: 124px;
     height: auto;
     float: left;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .container h2{
@@ -122,24 +122,19 @@ footer a:hover{
     text-decoration: underline;
 }
 
-@media all and (max-width: 420px) {
+@media (max-width: 428px) {
     body{
-        background: none;
-
+        background-image: url(./img/mobile-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
-    .container, main{
-        width: 362px;
-    }
-
-}
-
-@media all and (max-width: 1180px) and (orientation: landscape){
-    body{
-        background: none;
-
+    main{
+        width: 100%;
+        padding: 0 14px;
     }
     .container{
-        width: 420px;
+        width: 100%;
+        padding: 25px;
     }
 
 }

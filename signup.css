@@ -24,10 +24,14 @@ main{
 }
 
 .logo img{
-    width: 160px;
+    width: 124px;
     height: auto;
     float: left;
     margin-bottom: 29px;
+}
+
+.right-sec-logo{
+    display: none;
 }
 
 .left-section{
@@ -185,4 +189,40 @@ footer p, a{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+@media (max-width: 428px) {
+    body{
+        background-image: url(./img/mobile-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    main{
+        width: 100%;
+        padding: 14px;
+    }
+    .left-section{
+        display: none;
+    }
+    .right-sec-logo{
+        display: block;
+        align-self: flex-start;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container{
+        max-width: 100%;
+        padding: 25px;
+    }
+    .right-sec-logo img{
+        width: 124px;
+        height: auto;
+    }
+    
+
 }
