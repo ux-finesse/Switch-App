@@ -6,17 +6,6 @@
     font-family: 'Catamaran', sans-serif;
 }
 
-@media screen and (max-width: 600px) {
-    body{
-        background-size: cover !important;
-
-    }
-    .container{
-        width: 420px !important;
-    }
-
-}
-
 body{
     display: flex;
     flex-direction: column;
@@ -131,4 +120,26 @@ footer p, a{
 
 footer a:hover{
     text-decoration: underline;
+}
+
+@media all and (max-width: 420px) {
+    body{
+        background: none;
+
+    }
+    .container, main{
+        width: 362px;
+    }
+
+}
+
+@media all and (max-width: 1180px) and (orientation: landscape){
+    body{
+        background: none;
+
+    }
+    .container{
+        width: 420px;
+    }
+
 }
