@@ -20,16 +20,13 @@ body{
 
 main{
     margin-top: 100px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
-.logo{
+.logo img{
     width: 124px;
     height: auto;
+    float: left;
     margin-bottom: 20px;
-    align-self: flex-start;
 }
 
 .container h2{
@@ -46,31 +43,54 @@ main{
     padding: 50px;
     border: 1px solid rgba(112, 112, 112, 0.25);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.05);
-    width: 484px;
+    width: 452px;
 }
 
-.form-section input{
+.radio{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.radio h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.radio p{
     font-size: 14px;
     font-weight: 400;
-    width: 100%;
+}
+
+#radio-1{
+    display: flex;
+    gap: 15px;
+}
+
+#radio-2{
+    display: flex;
     margin-bottom: 30px;
-    padding: 0px 23px;
-    border-radius: 7px;
-    outline: none;
-    height: 45px;
+    gap: 15px;
+}
+
+.radio input{
+    font-size: 14px;
+    width: 23px;
+    -webkit-appearance: none;
+    height: 23px;
     border: 1px solid rgba(112, 112, 112, 0.3);
     box-shadow: 0px 0px 6px rgba(24, 153, 215, 0);
 }
 
-.form-section input:focus{
+.radio input:focus{
     box-shadow: 0px 0px 6px rgba(24, 153, 215, 0.9);
     border: 1px solid rgba(24, 153, 215, 1);
 }
 
 button{
-    width: 100%;
+    width: 155px;
     border-radius: 7px;
     height: 45px;
     cursor: pointer;
@@ -95,33 +115,12 @@ button:hover{
     color: rgba(25, 25, 25, 1);
 }
 
-.sign-up a{
-    font-size: 14px;
-    font-weight: 400;
-    color: rgba(24, 153, 215, 1);
-}
-
-#back-btn{
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 30px;
-    align-self: center;
-}
-
-#back-btn a{
-    color: rgba(25, 25, 25, 1);
-}
-
-#back-btn a:hover{
-    color: rgba(24, 153, 215, 1);
-}
-
 footer{
     display: flex;
     gap: 44px;
     font-size: 14px;
     font-weight: 400;
-    margin: 386px auto;
+    margin: 250px auto;
     color: rgba(25, 25, 25, 1);
 }
 footer p, a{

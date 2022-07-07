@@ -4,30 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
-    <link href="forgotpassword.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="icon" href="./Switch-Icon.png">
+    <title>Sign In</title>
+    <link href="signin.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
 </head>
 <body>
     <main>
         <div class="logo">
-            <img src="./img/Switch-logo.svg"/>
+        <img src="./img/Switch-logo.svg"/>
         </div>
         <div class="container">
-                <h2>Forgot Password</h2>
+                <h2>Sign in to your account</h2>
             <div class="form-section">
                 <form action="#">
                     <input type="email" id="email" name="email" placeholder="Email" required/>
-                    <button type="submit" value="Login">Submit</button>
+                        <div class="fgt-pw">
+                        <p><a href="./forgotpassword.html">Forgot password?</a></p>
+                        </div>
+                    <input type="password" id="password" name="password" placeholder="Password" maxlength="10" minlength="2" required="!@#$%"/>
+                    <button type="submit" value="submit">Sign In</button>
                 </form>
                 <div class="sign-up">
                     <p>Don't have an account? <a href="./signup.html">Sign up</a></p>
                 </div>
             </div>
-        </div>
-        <div id="back-btn">
-            <a href="#">Go back</a>
         </div>
     </main>
     <footer>

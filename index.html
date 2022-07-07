@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link href="signin.css" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <title>Get Started</title>
+    <link href="index.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <main>
         <div class="logo">
-        <img src="./img/Switch-logo.svg"/>
-        </div>
-        <div class="container">
-                <h2>Sign in to your account</h2>
-            <div class="form-section">
-                <form action="#">
-                    <input type="email" id="email" name="email" placeholder="Email" required/>
-                        <div class="fgt-pw">
-                        <p><a href="./forgotpassword.html">Forgot Password?</a></p>
-                        </div>
-                    <input type="password" id="password" name="password" placeholder="Password" maxlength="10" minlength="2" required="!@#$%"/>
-                    <button type="submit" value="Login">Continue</button>
-                </form>
-                <div class="sign-up">
-                    <p>Don't have an account? <a href="./signup.html">Sign up</a></p>
-                </div>
+            <img src="./img/Switch-logo.svg"/>
             </div>
-        </div>
+            <div class="container">
+                    <h2>Get started with SwitchApp</h2>
+                        <form action="#">
+                            <div class="radio">
+                                <div id="radio-1">
+                                    <input type="radio" id="p-acct" name="account-type" value="personal-account">
+                                    <label>
+                                        <h5>Personal Account</h5>
+                                        <p>Shop online or send money. All without sharing your payment info.</p>
+                                    </label>
+                                </div>
+
+                                <div id="radio-2">
+                                    <input type="radio" id="m-acct" name="account-type" value="merchant-account">
+                                    <label>
+                                        <h5>Merchant Account</h5>
+                                        <p>Let your customers Shop online and receive instant settlement. All without sharing your payment info.</p>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                    <a href="./signup.html"><button type="submit" value="Login">Continue</button></a>
+            </div>
     </main>
     <footer>
         <p>© Switch App</p>
