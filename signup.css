@@ -108,7 +108,7 @@ main{
     font-size: 14px;
     font-weight: 400;
     width: 100%;
-    gap: 30px;
+    margin-bottom: 30px;
     padding: 0px 23px;
     border-radius: 7px;
     outline: none;
