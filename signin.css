@@ -29,12 +29,12 @@ main{
     margin-bottom: 20px;
 }
 
-.container h2{
+.icontainer h2{
     font-size: 22px;
     margin-bottom: 43px;
 }
 
-.container{
+.icontainer{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -83,7 +83,7 @@ button:hover{
     background: rgba(19, 120, 168, 1) 0% 0% no-repeat padding-box;
 }
 
-.container p{
+.icontainer p{
     font-size: 14px;
     font-weight: 400;
 }
@@ -102,7 +102,7 @@ button:hover{
     color: rgba(24, 153, 215, 1);
 }
 
-.container a:hover{
+.icontainer a:hover{
     color: rgba(25, 25, 25, 1);
 }
 
@@ -132,11 +132,12 @@ footer a:hover{
         width: 100%;
         padding: 0 14px;
         margin-top: 30px;
-        height: auto;
+        
     }
-    .container{
+    .icontainer{
         width: 100%;
         padding: 25px;
+        height: auto;
     }
 
 }

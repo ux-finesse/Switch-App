@@ -80,17 +80,17 @@ main{
     display: flex;
 }
 
-.container h2{
+.rcontainer h2{
     font-size: 22px;
     margin-bottom: 43px;
 }
 
-.container p{
+.rcontainer p{
     font-size: 14px;
     font-weight: 400;
 }
 
-.container{
+.rcontainer{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -233,7 +233,7 @@ footer a:hover{
         flex-direction: column;
         width: 100%;
     }
-    .container{
+    .rcontainer{
         max-width: 100%;
         padding: 25px;
         height: auto;
